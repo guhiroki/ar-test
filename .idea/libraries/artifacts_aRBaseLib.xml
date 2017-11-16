@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="artifacts:aRBaseLib">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aRBaseLib-debug.aar/e565d7145e5f8ec75b99ffbab18184a3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aRBaseLib-debug.aar/e565d7145e5f8ec75b99ffbab18184a3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,4 @@
+#Tue Nov 14 17:13:48 BRST 2017
+base.0=C\:\\Users\\saognaka\\Desktop\\ARToolKit\\AndroidStudioProjects\\ARSimpleProj\\aRSimple\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=C\:\\Users\\saognaka\\Desktop\\ARToolKit\\AndroidStudioProjects\\ARSimpleProj\\aRSimple\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
