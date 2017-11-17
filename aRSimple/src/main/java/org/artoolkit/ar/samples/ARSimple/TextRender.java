@@ -2,17 +2,12 @@ package org.artoolkit.ar.samples.ARSimple;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.Paint;
 import android.opengl.GLES10;
-import android.opengl.GLSurfaceView;
 import android.opengl.GLUtils;
-
 import org.artoolkit.ar.base.rendering.RenderUtils;
 import java.nio.ByteBuffer;
 import java.nio.FloatBuffer;
-
-import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
 public class TextRender {
@@ -20,18 +15,10 @@ public class TextRender {
     private FloatBuffer textureBuffer;
     private ByteBuffer mIndexBuffer;
     private int width;
-    private int height;
+    private int height; 
 
     public TextRender(float size, float x, float y, float z){
         setArrays(size, x, y, z);
-    }
-
-    public FloatBuffer getmVertexBuffer() {
-        return mVertexBuffer;
-    }
-
-    public ByteBuffer getmIndexBuffer() {
-        return mIndexBuffer;
     }
 
     private void setArrays(float size, float x, float y, float z) {
@@ -69,19 +56,19 @@ public class TextRender {
         String txt;
         GLES10.glEnable(GL10.GL_TEXTURE_2D);
 
-        Bitmap bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.RGB_565);
+        Bitmap bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_4444);
         Canvas canvas = new Canvas(bitmap);
         bitmap.eraseColor(0);
 
         Paint txtP = new Paint();
-        txtP.setColor(Color.BLACK);
-        txtP.setStyle(Paint.Style.FILL);
+        txtP.setARGB(0xff, 0x00, 0x00, 0x00);
         canvas.drawPaint(txtP);
 
-        txtP.setColor(Color.WHITE);
-        txtP.setTextSize(10);
+        txtP.setARGB(0xff, 0xff, 0xff, 0xff);
+        txtP.setTextScaleX(0.5f);
+        txtP.setTextSize(100);
         txtP.setTextAlign(Paint.Align.CENTER);
-        canvas.drawText("your_text", 0, 0 + txtP.getTextSize(), txtP);
+        canvas.drawText("your_text", 0.f, 0.f + txtP.getTextSize(), txtP);
 
         int[] textures = new int[1];
 

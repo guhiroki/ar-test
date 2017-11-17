@@ -1,11 +1,16 @@
 package org.artoolkit.ar.samples.ARSimple;
 
-import android.app.Application;
+import android.content.Context;
+import android.graphics.Color;
+import android.graphics.Typeface;
+import android.view.Gravity;
+import android.widget.FrameLayout;
+import android.widget.FrameLayout.*;
+import android.widget.TextView;
 
 import org.artoolkit.ar.base.ARToolKit;
 import org.artoolkit.ar.base.rendering.ARRenderer;
 import org.artoolkit.ar.base.rendering.Cube;
-
 
 import javax.microedition.khronos.opengles.GL10;
 
@@ -19,7 +24,7 @@ public class SimpleRenderer extends ARRenderer {
 //    private int markerID5 = -1;
     private Cube cube = new Cube(40.0f, -80.0f, 0.0f, 20.0f);
     private TextRender text = new TextRender(40f, 60f, 0f, 50f);
-
+    boolean first = false;
 
 
     @Override
@@ -43,7 +48,6 @@ public class SimpleRenderer extends ARRenderer {
     /**
      * Override the draw function from ARRenderer.
      */
-    @Override
     public void draw(GL10 gl) {
         gl.glClear(GL10.GL_COLOR_BUFFER_BIT | GL10.GL_DEPTH_BUFFER_BIT);
 
@@ -63,9 +67,32 @@ public class SimpleRenderer extends ARRenderer {
             cube.draw(gl);
         }
         if (ARToolKit.getInstance().queryMarkerVisible(markerID2)){
-            gl.glMatrixMode(GL10.GL_MODELVIEW);
-            gl.glLoadMatrixf(ARToolKit.getInstance().queryMarkerTransformation(markerID2), 0);
-            text.draw(gl);
+
+            if (!first) {
+//            gl.glMatrixMode(GL10.GL_MODELVIEW);
+//            gl.glLoadMatrixf(ARToolKit.getInstance().queryMarkerTransformation(markerID2), 0);
+//            text.draw(gl);
+                Context context = ARSimpleApplication.getAppContext();
+                FrameLayout frameLay = ARSimpleApplication.getFL();
+
+                FrameLayout.LayoutParams layoutParamsFrame = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.FILL_PARENT, FrameLayout.LayoutParams.FILL_PARENT, Gravity.CENTER);
+
+                frameLay.setLayoutParams(layoutParamsFrame);
+
+                TextView theText = new TextView(context);
+                theText.setText("text_test");
+                theText.setTextColor(Color.WHITE);
+                theText.setTypeface(Typeface.DEFAULT_BOLD);
+
+                LayoutParams layoutParamsText = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
+                theText.setLayoutParams(layoutParamsText);
+                theText.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM);
+
+                first = true;
+
+                frameLay.addView(theText, layoutParamsText);
+
+            }
         }
     }
 }

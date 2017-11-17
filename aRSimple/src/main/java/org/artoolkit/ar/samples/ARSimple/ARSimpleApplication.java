@@ -1,6 +1,10 @@
 package org.artoolkit.ar.samples.ARSimple;
 
+import android.app.Activity;
 import android.app.Application;
+import android.content.Context;
+import android.view.View;
+import android.widget.FrameLayout;
 
 import org.artoolkit.ar.base.assets.AssetHelper;
 
@@ -16,10 +20,16 @@ public class ARSimpleApplication extends Application {
         return sInstance;
     }
 
+    private static Context context;
+    private static FrameLayout fl;
+
     @Override
     public void onCreate() {
         super.onCreate();
         sInstance = this;
+        ARSimpleApplication.context = getApplicationContext();
+        View v = new View(context);
+        fl = (FrameLayout) v.findViewById(R.id.mainLayout);
         ((ARSimpleApplication) sInstance).initializeInstance();
     }
 
@@ -33,5 +43,11 @@ public class ARSimpleApplication extends Application {
         AssetHelper assetHelper = new AssetHelper(getAssets());
         Set<String> a = assetHelper.getAssetFilenames("Data");
         assetHelper.cacheAssetFolder(getInstance(), "Data");
+    }
+    public static Context getAppContext() {
+        return context;
+    }
+    public static FrameLayout getFL() {
+        return fl;
     }
 }
