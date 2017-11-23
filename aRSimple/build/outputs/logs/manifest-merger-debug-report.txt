@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml:2:1-47:12
-MERGED from [:aRBaseLib] C:\Users\saognaka\.gradle\caches\transforms-1\files-1.1\aRBaseLib-debug.aar\13953cf1784078c84bd0be3c95d00f15\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml:2:1-47:12
+ADDED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml:2:1-46:12
+MERGED from [:aRBaseLib] C:\Users\saognaka\.gradle\caches\transforms-1\files-1.1\aRBaseLib-debug.aar\622471c9383f753b649821ae0513e759\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml:2:1-46:12
 	package
 		ADDED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml:3:5-48
 		INJECTED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml
@@ -59,7 +59,7 @@ ADDED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml:20:5-25:40
 	android:anyDensity
 		ADDED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml:21:9-34
 application
-ADDED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml:27:5-46:19
+ADDED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml:27:5-45:19
 	android:label
 		ADDED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml:31:9-41
 	android:icon
@@ -90,16 +90,12 @@ activity#org.artoolkit.ar.base.camera.CameraPreferencesActivity
 ADDED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml:44:9-100
 	android:name
 		ADDED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml:44:19-88
-activity#org.artoolkit.ar.samples.ARSimple.SimpleRenderer
-ADDED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml:45:9-52
-	android:name
-		ADDED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml:45:19-49
 uses-sdk
 INJECTED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml
 INJECTED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml
-MERGED from [:aRBaseLib] C:\Users\saognaka\.gradle\caches\transforms-1\files-1.1\aRBaseLib-debug.aar\13953cf1784078c84bd0be3c95d00f15\AndroidManifest.xml:7:5-9:41
-MERGED from [:aRBaseLib] C:\Users\saognaka\.gradle\caches\transforms-1\files-1.1\aRBaseLib-debug.aar\13953cf1784078c84bd0be3c95d00f15\AndroidManifest.xml:7:5-9:41
+MERGED from [:aRBaseLib] C:\Users\saognaka\.gradle\caches\transforms-1\files-1.1\aRBaseLib-debug.aar\622471c9383f753b649821ae0513e759\AndroidManifest.xml:7:5-9:41
+MERGED from [:aRBaseLib] C:\Users\saognaka\.gradle\caches\transforms-1\files-1.1\aRBaseLib-debug.aar\622471c9383f753b649821ae0513e759\AndroidManifest.xml:7:5-9:41
 INJECTED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml
 INJECTED from C:\Projects\ar-test\aRSimple\src\main\AndroidManifest.xml
 	android:targetSdkVersion

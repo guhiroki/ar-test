@@ -2,9 +2,13 @@ package org.artoolkit.ar.samples.ARSimple;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.opengl.GLES10;
 import android.opengl.GLUtils;
+import android.view.Surface;
+import android.view.SurfaceView;
+
 import org.artoolkit.ar.base.rendering.RenderUtils;
 import java.nio.ByteBuffer;
 import java.nio.FloatBuffer;
@@ -22,11 +26,11 @@ public class TextRender {
     }
 
     private void setArrays(float size, float x, float y, float z) {
-
+        size = 300;
         float hs = size / 2.0f;
 
-        width = 40;
-        height = 40;
+        width = Math.round(hs);
+        height = Math.round(hs);
 
         float vertices[] = {
                 x - hs, y - hs, z - hs, // 0
@@ -38,7 +42,6 @@ public class TextRender {
         byte indices[] = {
                 0,3,2,0,2,1
         };
-
 
         float texture[] = {
                 x - hs, y - hs, // 0
@@ -53,38 +56,42 @@ public class TextRender {
     }
 
     public void draw(GL10 gl) {
-        String txt;
         GLES10.glEnable(GL10.GL_TEXTURE_2D);
 
         Bitmap bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_4444);
-        Canvas canvas = new Canvas(bitmap);
         bitmap.eraseColor(0);
 
-        Paint txtP = new Paint();
-        txtP.setARGB(0xff, 0x00, 0x00, 0x00);
-        canvas.drawPaint(txtP);
+        Canvas canvas = new Canvas(bitmap);
+        canvas.translate(width, height);
+        canvas.drawColor(Color.WHITE);
 
-        txtP.setARGB(0xff, 0xff, 0xff, 0xff);
-        txtP.setTextScaleX(0.5f);
-        txtP.setTextSize(100);
-        txtP.setTextAlign(Paint.Align.CENTER);
-        canvas.drawText("your_text", 0.f, 0.f + txtP.getTextSize(), txtP);
-
+        Paint paint = new Paint();
+        paint.setStyle(Paint.Style.FILL);
+        paint.setColor(0xffffffff & Color.MAGENTA);
+        paint.setAlpha(255);
+        canvas.drawText("Hello world", 0f, 30f, paint);
+//        Paint txtP = new Paint();
+//        paint.setARGB(0x0D, 0xff, 0x00, 0x00);
+//        canvas.drawPaint(paint);
+//
+//        txtP.setARGB(0xff, 0x00, 0x00, 0xff);
+//        txtP.setTextSize(100);
+//        txtP.setTextAlign(Paint.Align.CENTER);
+//        canvas.drawText("your_text", 0.f, 0.f + txtP.getTextSize(), txtP);
         int[] textures = new int[1];
 
 
         GLES10.glGenTextures(1, textures,0);
         GLES10.glBindTexture(GLES10.GL_TEXTURE_2D, textures[0]);
-
         GLES10.glEnableClientState(GL10.GL_VERTEX_ARRAY);
         GLES10.glEnableClientState(GL10.GL_TEXTURE_COORD_ARRAY);
 
-        GLES10.glTexCoordPointer(2, GLES10.GL_FLOAT, 0, textureBuffer);
+        GLES10.glTexCoordPointer(3, GLES10.GL_FLOAT, 0, textureBuffer);
 
-        GLES10.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_MAG_FILTER, GL10.GL_LINEAR);
-        GLES10.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_MIN_FILTER, GL10.GL_NEAREST);
         GLES10.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_WRAP_S, GL10.GL_CLAMP_TO_EDGE);
         GLES10.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_WRAP_T, GL10.GL_CLAMP_TO_EDGE);
+        GLES10.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_MAG_FILTER, GL10.GL_LINEAR);
+        GLES10.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_MIN_FILTER, GL10.GL_NEAREST);
 
         GLUtils.texImage2D(GL10.GL_TEXTURE_2D, 0, bitmap, 0);
 
@@ -96,6 +103,7 @@ public class TextRender {
 
         GLES10.glDisableClientState(GL10.GL_VERTEX_ARRAY);
         GLES10.glDisableClientState(GL10.GL_TEXTURE_COORD_ARRAY);
+        GLES10.glDeleteTextures(1, textures,0);
         GLES10.glDisable(GL10.GL_TEXTURE_2D);
     }
 }

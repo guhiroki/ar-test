@@ -20,16 +20,10 @@ public class ARSimpleApplication extends Application {
         return sInstance;
     }
 
-    private static Context context;
-    private static FrameLayout fl;
-
     @Override
     public void onCreate() {
         super.onCreate();
         sInstance = this;
-        ARSimpleApplication.context = getApplicationContext();
-        View v = new View(context);
-        fl = (FrameLayout) v.findViewById(R.id.mainLayout);
         ((ARSimpleApplication) sInstance).initializeInstance();
     }
 
@@ -43,11 +37,5 @@ public class ARSimpleApplication extends Application {
         AssetHelper assetHelper = new AssetHelper(getAssets());
         Set<String> a = assetHelper.getAssetFilenames("Data");
         assetHelper.cacheAssetFolder(getInstance(), "Data");
-    }
-    public static Context getAppContext() {
-        return context;
-    }
-    public static FrameLayout getFL() {
-        return fl;
     }
 }

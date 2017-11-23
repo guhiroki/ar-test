@@ -1,16 +1,19 @@
 package org.artoolkit.ar.samples.ARSimple;
 
+import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.view.Gravity;
 import android.widget.FrameLayout;
 import android.widget.FrameLayout.*;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import org.artoolkit.ar.base.ARToolKit;
 import org.artoolkit.ar.base.rendering.ARRenderer;
 import org.artoolkit.ar.base.rendering.Cube;
+import org.artoolkit.ar.samples.ARSimple.ARSimple;
 
 import javax.microedition.khronos.opengles.GL10;
 
@@ -67,32 +70,9 @@ public class SimpleRenderer extends ARRenderer {
             cube.draw(gl);
         }
         if (ARToolKit.getInstance().queryMarkerVisible(markerID2)){
-
-            if (!first) {
-//            gl.glMatrixMode(GL10.GL_MODELVIEW);
-//            gl.glLoadMatrixf(ARToolKit.getInstance().queryMarkerTransformation(markerID2), 0);
-//            text.draw(gl);
-                Context context = ARSimpleApplication.getAppContext();
-                FrameLayout frameLay = ARSimpleApplication.getFL();
-
-                FrameLayout.LayoutParams layoutParamsFrame = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.FILL_PARENT, FrameLayout.LayoutParams.FILL_PARENT, Gravity.CENTER);
-
-                frameLay.setLayoutParams(layoutParamsFrame);
-
-                TextView theText = new TextView(context);
-                theText.setText("text_test");
-                theText.setTextColor(Color.WHITE);
-                theText.setTypeface(Typeface.DEFAULT_BOLD);
-
-                LayoutParams layoutParamsText = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
-                theText.setLayoutParams(layoutParamsText);
-                theText.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM);
-
-                first = true;
-
-                frameLay.addView(theText, layoutParamsText);
-
-            }
+            gl.glMatrixMode(GL10.GL_MODELVIEW);
+            gl.glLoadMatrixf(ARToolKit.getInstance().queryMarkerTransformation(markerID2), 0);
+            text.draw(gl);
         }
     }
 }

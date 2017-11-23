@@ -13,7 +13,7 @@
     },
     {
         "merged": "C:\\Projects\\ar-test\\aRSimple\\build\\intermediates\\res\\merged\\debug\\xml_preferences.xml.flat",
-        "source": "C:\\Users\\saognaka\\.gradle\\caches\\transforms-1\\files-1.1\\aRBaseLib-debug.aar\\13953cf1784078c84bd0be3c95d00f15\\res\\xml\\preferences.xml"
+        "source": "C:\\Users\\saognaka\\.gradle\\caches\\transforms-1\\files-1.1\\aRBaseLib-debug.aar\\622471c9383f753b649821ae0513e759\\res\\xml\\preferences.xml"
     },
     {
         "merged": "C:\\Users\\saognaka\\Desktop\\ARToolKit\\AndroidStudioProjects\\ARSimpleProj\\aRSimple\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_settings.png.flat",
@@ -21,7 +21,7 @@
     },
     {
         "merged": "C:\\Projects\\ar-test\\aRSimple\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_settings.png.flat",
-        "source": "C:\\Users\\saognaka\\.gradle\\caches\\transforms-1\\files-1.1\\aRBaseLib-debug.aar\\13953cf1784078c84bd0be3c95d00f15\\res\\drawable-xhdpi\\settings.png"
+        "source": "C:\\Users\\saognaka\\.gradle\\caches\\transforms-1\\files-1.1\\aRBaseLib-debug.aar\\622471c9383f753b649821ae0513e759\\res\\drawable-xhdpi\\settings.png"
     },
     {
         "merged": "C:\\Projects\\ar-test\\aRSimple\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon.png.flat",
@@ -33,7 +33,7 @@
     },
     {
         "merged": "C:\\Projects\\ar-test\\aRSimple\\build\\intermediates\\res\\merged\\debug\\menu_options.xml.flat",
-        "source": "C:\\Users\\saognaka\\.gradle\\caches\\transforms-1\\files-1.1\\aRBaseLib-debug.aar\\13953cf1784078c84bd0be3c95d00f15\\res\\menu\\options.xml"
+        "source": "C:\\Users\\saognaka\\.gradle\\caches\\transforms-1\\files-1.1\\aRBaseLib-debug.aar\\622471c9383f753b649821ae0513e759\\res\\menu\\options.xml"
     },
     {
         "merged": "C:\\Users\\saognaka\\Desktop\\ARToolKit\\AndroidStudioProjects\\ARSimpleProj\\aRSimple\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_settings.png.flat",
@@ -41,7 +41,7 @@
     },
     {
         "merged": "C:\\Projects\\ar-test\\aRSimple\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_settings.png.flat",
-        "source": "C:\\Users\\saognaka\\.gradle\\caches\\transforms-1\\files-1.1\\aRBaseLib-debug.aar\\13953cf1784078c84bd0be3c95d00f15\\res\\drawable-mdpi\\settings.png"
+        "source": "C:\\Users\\saognaka\\.gradle\\caches\\transforms-1\\files-1.1\\aRBaseLib-debug.aar\\622471c9383f753b649821ae0513e759\\res\\drawable-mdpi\\settings.png"
     },
     {
         "merged": "C:\\Users\\saognaka\\Desktop\\ARToolKit\\AndroidStudioProjects\\ARSimpleProj\\aRSimple\\build\\intermediates\\res\\merged\\debug\\xml_preferences.xml.flat",
@@ -69,6 +69,6 @@
     },
     {
         "merged": "C:\\Projects\\ar-test\\aRSimple\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_settings.png.flat",
-        "source": "C:\\Users\\saognaka\\.gradle\\caches\\transforms-1\\files-1.1\\aRBaseLib-debug.aar\\13953cf1784078c84bd0be3c95d00f15\\res\\drawable-hdpi\\settings.png"
+        "source": "C:\\Users\\saognaka\\.gradle\\caches\\transforms-1\\files-1.1\\aRBaseLib-debug.aar\\622471c9383f753b649821ae0513e759\\res\\drawable-hdpi\\settings.png"
     }
 ]
