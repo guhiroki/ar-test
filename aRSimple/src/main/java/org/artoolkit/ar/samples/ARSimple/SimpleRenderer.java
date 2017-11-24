@@ -1,19 +1,8 @@
 package org.artoolkit.ar.samples.ARSimple;
 
-import android.app.Activity;
-import android.content.Context;
-import android.graphics.Color;
-import android.graphics.Typeface;
-import android.view.Gravity;
-import android.widget.FrameLayout;
-import android.widget.FrameLayout.*;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
-
-import org.artoolkit.ar.base.ARToolKit;
 import org.artoolkit.ar.base.rendering.ARRenderer;
+import org.artoolkit.ar.base.ARToolKit;
 import org.artoolkit.ar.base.rendering.Cube;
-import org.artoolkit.ar.samples.ARSimple.ARSimple;
 
 import javax.microedition.khronos.opengles.GL10;
 
@@ -26,8 +15,7 @@ public class SimpleRenderer extends ARRenderer {
 //    private int markerID4 = -1;
 //    private int markerID5 = -1;
     private Cube cube = new Cube(40.0f, -80.0f, 0.0f, 20.0f);
-    private TextRender text = new TextRender(40f, 60f, 0f, 50f);
-    boolean first = false;
+    private TextRender text = new TextRender(120f, 60f, 0f, 50f);
 
 
     @Override
