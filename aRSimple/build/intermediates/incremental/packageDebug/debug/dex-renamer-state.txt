@@ -1,4 +1,4 @@
-#Fri Nov 24 12:49:50 BRST 2017
+#Mon Nov 27 17:29:12 BRST 2017
 base.0=C\:\\Projects\\ar-test\\aRSimple\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

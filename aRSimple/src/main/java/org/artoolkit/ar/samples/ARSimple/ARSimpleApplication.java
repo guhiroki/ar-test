@@ -1,10 +1,7 @@
 package org.artoolkit.ar.samples.ARSimple;
 
-import android.app.Activity;
 import android.app.Application;
-import android.content.Context;
-import android.view.View;
-import android.widget.FrameLayout;
+
 
 import org.artoolkit.ar.base.assets.AssetHelper;
 

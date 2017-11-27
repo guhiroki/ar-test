@@ -1,5 +1,11 @@
 package org.artoolkit.ar.samples.ARSimple;
 
+import android.app.Activity;
+import android.graphics.Color;
+import android.graphics.Typeface;
+import android.text.Html;
+import android.widget.TextView;
+
 import org.artoolkit.ar.base.rendering.ARRenderer;
 import org.artoolkit.ar.base.ARToolKit;
 import org.artoolkit.ar.base.rendering.Cube;
@@ -57,10 +63,27 @@ public class SimpleRenderer extends ARRenderer {
             gl.glLoadMatrixf(ARToolKit.getInstance().queryMarkerTransformation(markerID1), 0);
             cube.draw(gl);
         }
-        if (ARToolKit.getInstance().queryMarkerVisible(markerID2)){
-            gl.glMatrixMode(GL10.GL_MODELVIEW);
-            gl.glLoadMatrixf(ARToolKit.getInstance().queryMarkerTransformation(markerID2), 0);
-            text.draw(gl);
+        if (ARToolKit.getInstance().queryMarkerVisible(markerID2)) {
+            changeText("<h3>Linha 1</h3>" +
+                       "<b>OTB: </b> 90%<br>" +
+                       "<b>Yield: </b> 95%<br>" +
+                       "<b>Scrap: </b> 2%<br>");
+        }else{
+            changeText("");
         }
+    }
+    private void changeText(final String text){
+        Activity act = ARSimple.getActivity();
+        ARToolKit.getInstance().
+        act.runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                ARSimple.textView.setText(Html.fromHtml(text));
+                ARSimple.textView.setShadowLayer(100,40,40, Color.BLACK);
+//                ARSimple.textView.setTypeface(Typeface.SERIF);
+                ARSimple.textView.setTextColor(Color.LTGRAY);
+                ARSimple.textView.setTextSize(30f);
+            }
+        });
     }
 }

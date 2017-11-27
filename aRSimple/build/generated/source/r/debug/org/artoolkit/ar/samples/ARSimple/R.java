@@ -21,7 +21,7 @@ public final class R {
   public static final class id {
     public static final int mainLayout=0x7f030000;
     public static final int settings=0x7f030001;
-    public static final int surfaceView=0x7f030002;
+    public static final int textLayout=0x7f030002;
     public static final int topLayout=0x7f030003;
   }
   public static final class layout {

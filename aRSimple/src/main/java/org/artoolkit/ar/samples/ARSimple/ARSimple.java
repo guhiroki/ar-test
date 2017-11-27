@@ -2,22 +2,20 @@ package org.artoolkit.ar.samples.ARSimple;
 
 import android.app.Activity;
 import android.content.Context;
-import android.graphics.Camera;
 import android.os.Bundle;
-import android.view.SurfaceView;
 import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+
 import org.artoolkit.ar.base.ARActivity;
-import org.artoolkit.ar.base.camera.CameraPreferencesActivity;
 import org.artoolkit.ar.base.rendering.ARRenderer;
 
-/**
- * A very simple example of extending ARActivity to create a new AR application.
- */
 public class ARSimple extends ARActivity {
     private static FrameLayout frameLayout;
     private static Context context;
     private static Activity activity;
-    private static SurfaceView surfaceView;
+    public static TextView textView;
+    public static RelativeLayout topLayout;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -26,7 +24,8 @@ public class ARSimple extends ARActivity {
         context = getApplicationContext();
         frameLayout = (FrameLayout) this.findViewById(R.id.mainLayout);
         activity = this;
-        surfaceView = (SurfaceView) this.findViewById(R.id.surfaceView);
+        textView = (TextView)(findViewById(R.id.textLayout));
+        topLayout = (RelativeLayout) (findViewById(R.id.topLayout));
     }
     /**
      * Provide our own SimpleRenderer.
@@ -51,8 +50,5 @@ public class ARSimple extends ARActivity {
     }
     public static Activity getActivity(){
         return activity;
-    }
-    public static SurfaceView getSurfaceView(){
-        return surfaceView;
     }
 }

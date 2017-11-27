@@ -6,7 +6,7 @@ int drawable icon 0x7f020000
 int drawable settings 0x7f020001
 int id mainLayout 0x7f030000
 int id settings 0x7f030001
-int id surfaceView 0x7f030002
+int id textLayout 0x7f030002
 int id topLayout 0x7f030003
 int layout main 0x7f040000
 int menu options 0x7f050000
