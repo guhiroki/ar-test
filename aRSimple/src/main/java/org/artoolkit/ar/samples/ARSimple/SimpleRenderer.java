@@ -2,8 +2,10 @@ package org.artoolkit.ar.samples.ARSimple;
 
 import android.app.Activity;
 import android.graphics.Color;
+import android.graphics.Matrix;
 import android.graphics.Typeface;
 import android.text.Html;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import org.artoolkit.ar.base.rendering.ARRenderer;
@@ -67,22 +69,46 @@ public class SimpleRenderer extends ARRenderer {
             changeText("<h3>Linha 1</h3>" +
                        "<b>OTB: </b> 90%<br>" +
                        "<b>Yield: </b> 95%<br>" +
-                       "<b>Scrap: </b> 2%<br>");
+                       "<b>Scrap: </b> 2%<br>", markerID2);
         }else{
-            changeText("");
+            changeText("", 0);
         }
     }
-    private void changeText(final String text){
+    private void changeText(final String text, final int marker){
         Activity act = ARSimple.getActivity();
-        ARToolKit.getInstance().
+
         act.runOnUiThread(new Runnable() {
             @Override
             public void run() {
+
                 ARSimple.textView.setText(Html.fromHtml(text));
                 ARSimple.textView.setShadowLayer(100,40,40, Color.BLACK);
-//                ARSimple.textView.setTypeface(Typeface.SERIF);
                 ARSimple.textView.setTextColor(Color.LTGRAY);
                 ARSimple.textView.setTextSize(30f);
+
+                float[] matrixArray;
+
+                if (marker != 0) {
+                    int centreX = (-(ARSimple.textView.getWidth() / 2) + ARSimple.topLayout.getWidth()) /2;
+                    int centreY = (-(ARSimple.textView.getHeight() / 2) + ARSimple.topLayout.getHeight()) /2;
+
+                    matrixArray = ARToolKit.getInstance().queryMarkerTransformation(marker);
+
+                    int aux1 = 1920/320;
+                    int aux2 = 1080/240;
+
+                    int posX = centreX + Math.round(matrixArray[12]) * aux1;
+                    int posY = centreY + (-1 * Math.round(matrixArray[13])) * aux2;
+
+                    if ((posX + ARSimple.textView.getWidth() / 2) >= ARSimple.topLayout.getWidth())
+                        posX = posX - (posX - ARSimple.topLayout.getWidth() - ARSimple.textView.getWidth() / 2);
+
+                    if (posY + ARSimple.textView.getHeight() / 2 >= ARSimple.topLayout.getHeight())
+                        posY = posY - (posY - ARSimple.topLayout.getHeight() - ARSimple.textView.getHeight() / 2);
+
+                    ARSimple.textView.setX(posX);
+                    ARSimple.textView.setY(posY);
+                }
             }
         });
     }

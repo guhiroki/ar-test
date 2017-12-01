@@ -1,30 +1,6 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\saognaka\\Desktop\\ARToolKit\\AndroidStudioProjects\\ARSimpleProj\\aRSimple\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\saognaka\\.gradle\\caches\\transforms-1\\files-1.1\\aRBaseLib-debug.aar\\e565d7145e5f8ec75b99ffbab18184a3\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "4,7,10,13,16,17,18,19,20",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "207,311,424,522,631,686,756,827,892",
-                        "endLines": "6,9,12,15,16,17,18,19,20",
-                        "endColumns": "19,19,19,19,54,69,70,64,73",
-                        "endOffsets": "306,419,517,626,681,751,822,887,961"
-                    },
-                    "to": {
-                        "startLines": "2,5,8,11,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,272,370,479,534,604,675,740",
-                        "endLines": "4,7,10,13,14,15,16,17,18",
-                        "endColumns": "19,19,19,19,54,69,70,64,73",
-                        "endOffsets": "154,267,365,474,529,599,670,735,809"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Projects\\ar-test\\aRSimple\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
             "map": [
                 {

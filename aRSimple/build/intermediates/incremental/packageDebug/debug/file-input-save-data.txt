@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Nov 27 17:29:12 BRST 2017
+#Wed Nov 29 16:47:24 BRST 2017
 17.baseType=DIRECTORY
 4.path=lib/armeabi-v7a/libARWrapper.so
 8.set=NATIVE_RESOURCE

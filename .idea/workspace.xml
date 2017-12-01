@@ -10,6 +10,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ba95191-27dd-43c3-a863-e1bce30d6e90" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/generated/mockable-android-23.v3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/classes-jar/debug/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/classes/androidTest/debug/org/artoolkit/ar/samples/ARSimple/test/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/classes/androidTest/debug/org/artoolkit/ar/samples/ARSimple/test/R$array.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/classes/androidTest/debug/org/artoolkit/ar/samples/ARSimple/test/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/classes/androidTest/debug/org/artoolkit/ar/samples/ARSimple/test/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/classes/androidTest/debug/org/artoolkit/ar/samples/ARSimple/test/R$menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/classes/androidTest/debug/org/artoolkit/ar/samples/ARSimple/test/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/classes/androidTest/debug/org/artoolkit/ar/samples/ARSimple/test/R$xml.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/classes/androidTest/debug/org/artoolkit/ar/samples/ARSimple/test/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/javaPrecompile/androidTest/debug/annotationProcessors.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/javaPrecompile/test/debug/annotationProcessors.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/base/R$array.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/base/R$drawable.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/base/R$id.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/base/R$menu.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/base/R$string.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/base/R$xml.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/base/R.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/ARSimple.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/ARSimpleApplication.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/BuildConfig.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/R$array.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/R$drawable.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/R$id.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/R$layout.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/R$menu.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/R$string.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/R$xml.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/R.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/SimpleRenderer$1.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/SimpleRenderer.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/TextRender.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aRSimple/build/tmp/bundleAppClassesDebug/MANIFEST.MF" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
@@ -18,34 +52,32 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/classes/debug/org/artoolkit/ar/samples/ARSimple/ARSimple.class" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/classes/debug/org/artoolkit/ar/samples/ARSimple/ARSimple.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/classes/debug/org/artoolkit/ar/samples/ARSimple/ARSimpleApplication.class" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/classes/debug/org/artoolkit/ar/samples/ARSimple/ARSimpleApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/classes/debug/org/artoolkit/ar/samples/ARSimple/R$id.class" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/classes/debug/org/artoolkit/ar/samples/ARSimple/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/classes/debug/org/artoolkit/ar/samples/ARSimple/SimpleRenderer$1.class" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/classes/debug/org/artoolkit/ar/samples/ARSimple/SimpleRenderer$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/classes/debug/org/artoolkit/ar/samples/ARSimple/SimpleRenderer.class" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/classes/debug/org/artoolkit/ar/samples/ARSimple/SimpleRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/classes/debug/org/artoolkit/ar/samples/ARSimple/TextRender.class" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/classes/debug/org/artoolkit/ar/samples/ARSimple/TextRender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/incremental/packageDebug/debug/zip-cache/PlFViT4nzon_ix1rDrkOT0AMBDY=" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/incremental/packageDebug/debug/zip-cache/PlFViT4nzon_ix1rDrkOT0AMBDY=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/res/debug/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/res/merged/debug/layout_main.xml.flat" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/res/merged/debug/layout_main.xml.flat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/ARSimple.dex" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/ARSimple.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/ARSimpleApplication.dex" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/ARSimpleApplication.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/R$id.dex" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/R$id.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/SimpleRenderer.dex" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/SimpleRenderer.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/TextRender.dex" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/6/org/artoolkit/ar/samples/ARSimple/TextRender.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/incremental/debug-mergeJniLibs/merge-state" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/0.jar" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/1.jar" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/2.jar" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/3.jar" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/4.jar" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/4.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/outputs/apk/debug/aRSimple-debug.apk" afterPath="$PROJECT_DIR$/aRSimple/build/outputs/apk/debug/aRSimple-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/generated/source/r/debug/org/artoolkit/ar/samples/ARSimple/R.java" afterPath="$PROJECT_DIR$/aRSimple/build/generated/source/r/debug/org/artoolkit/ar/samples/ARSimple/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/blame/res/androidTest/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/blame/res/androidTest/debug/multi-v2/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/blame/res/androidTest/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/blame/res/androidTest/debug/multi-v2/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/blame/res/androidTest/debug/single/debug.json" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/blame/res/androidTest/debug/single/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/blame/res/debug/multi-v2/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/blame/res/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/blame/res/debug/multi-v2/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/blame/res/debug/single/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/dexMerger/debug/__content__.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/src/main/java/org/artoolkit/ar/samples/ARSimple/ARSimple.java" afterPath="$PROJECT_DIR$/aRSimple/src/main/java/org/artoolkit/ar/samples/ARSimple/ARSimple.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/src/main/java/org/artoolkit/ar/samples/ARSimple/ARSimpleApplication.java" afterPath="$PROJECT_DIR$/aRSimple/src/main/java/org/artoolkit/ar/samples/ARSimple/ARSimpleApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterPath="$PROJECT_DIR$/aRSimple/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/src/main/java/org/artoolkit/ar/samples/ARSimple/SimpleRenderer.java" afterPath="$PROJECT_DIR$/aRSimple/src/main/java/org/artoolkit/ar/samples/ARSimple/SimpleRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/src/main/java/org/artoolkit/ar/samples/ARSimple/TextRender.java" afterPath="$PROJECT_DIR$/aRSimple/src/main/java/org/artoolkit/ar/samples/ARSimple/TextRender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aRSimple/src/main/res/layout/main.xml" afterPath="$PROJECT_DIR$/aRSimple/src/main/res/layout/main.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,8 +121,8 @@
       <file leaf-file-name="main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aRSimple/src/main/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+            <state relative-caret-position="272">
+              <caret line="16" column="37" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="16" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -99,14 +131,103 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ARSimple.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aRSimple/src/main/java/org/artoolkit/ar/samples/ARSimple/ARSimple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1112#1113#0" expanded="false" />
+                <element signature="e#1155#1156#0" expanded="false" />
+                <element signature="e#1284#1285#0" expanded="false" />
+                <element signature="e#1318#1319#0" expanded="false" />
+                <element signature="e#1366#1367#0" expanded="false" />
+                <element signature="e#1400#1401#0" expanded="false" />
+                <element signature="e#1440#1441#0" expanded="false" />
+                <element signature="e#1470#1471#0" expanded="false" />
+                <element signature="e#1512#1513#0" expanded="false" />
+                <element signature="e#1543#1544#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ARSimpleApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aRSimple/src/main/java/org/artoolkit/ar/samples/ARSimple/ARSimpleApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SimpleRenderer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aRSimple/src/main/java/org/artoolkit/ar/samples/ARSimple/SimpleRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="62" column="78" lean-forward="false" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="78" />
+            <state relative-caret-position="221">
+              <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
-                <element signature="e#2608#3019#0" expanded="true" />
-                <element signature="e#3018#3019#0" expanded="true" />
+                <element signature="e#2678#4205#0" expanded="true" />
+                <element signature="e#4204#4205#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aRSimple/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Handler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-23/android/os/Handler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1275">
+              <caret line="92" column="46" lean-forward="false" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#31377#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#4519#4520#0" expanded="false" />
+                <element signature="e#4552#4553#0" expanded="false" />
+                <element signature="e#5003#5004#0" expanded="false" />
+                <element signature="e#5040#5041#0" expanded="false" />
+                <element signature="e#5218#5219#0" expanded="false" />
+                <element signature="e#5259#5260#0" expanded="false" />
+                <element signature="e#5605#5606#0" expanded="false" />
+                <element signature="e#5650#5651#0" expanded="false" />
+                <element signature="e#6442#6443#0" expanded="false" />
+                <element signature="e#6475#6476#0" expanded="false" />
+                <element signature="e#10258#10259#0" expanded="false" />
+                <element signature="e#10301#10302#0" expanded="false" />
+                <element signature="e#10614#10615#0" expanded="false" />
+                <element signature="e#10663#10664#0" expanded="false" />
+                <element signature="e#12859#12860#0" expanded="false" />
+                <element signature="e#12922#12923#0" expanded="false" />
+                <element signature="e#20193#20194#0" expanded="false" />
+                <element signature="e#20245#20246#0" expanded="false" />
+                <element signature="e#21088#21089#0" expanded="false" />
+                <element signature="e#21137#21138#0" expanded="false" />
+                <element signature="e#21494#21495#0" expanded="false" />
+                <element signature="e#21549#21550#0" expanded="false" />
+                <element signature="e#26650#26651#0" expanded="false" />
+                <element signature="e#26705#26706#0" expanded="false" />
+                <element signature="e#27541#27542#0" expanded="false" />
+                <element signature="e#27600#27601#0" expanded="false" />
+                <element signature="e#28061#28062#0" expanded="false" />
+                <element signature="e#28117#28118#0" expanded="false" />
+                <element signature="e#28298#28299#0" expanded="false" />
+                <element signature="e#28328#28329#0" expanded="false" />
+                <element signature="e#29660#29661#0" expanded="false" />
+                <element signature="e#29698#29699#0" expanded="false" />
+                <element signature="e#30036#30037#0" expanded="false" />
+                <element signature="e#30072#30073#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -2068,25 +2189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ARSimpleProj">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ARSimpleProj">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2179,6 +2281,24 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ARSimpleProj">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ARSimpleProj">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2252,6 +2372,10 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2278,8 +2402,30 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="ar-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ar-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aRSimple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2323,28 +2469,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="aRSimple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ar-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ar-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="aRBaseLib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ARToolKit/AndroidStudioProjects/ARMarkerDistanceProj" />
-    <property name="device.picker.selection" value="0033345183" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="device.picker.selection" value="0031348508" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="android.project.structure.last.selected" value="Authentication" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\saognaka\Desktop\ARToolKit\AndroidStudioProjects\ARSimpleProj\aRSimple\src\main\assets\Data" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.artoolkit.ar.samples.ARSimple" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\saognaka\Desktop\ARToolKit\AndroidStudioProjects\ARSimpleProj\aRSimple\src\main\assets\Data" />
     </key>
   </component>
@@ -2431,7 +2611,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1511811963258" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512125258306" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2479,7 +2659,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1511811963258" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512125258306" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2641,7 +2821,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1511811963258" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512125258307" />
       </method>
     </configuration>
     <list size="1">
@@ -2698,33 +2878,33 @@
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.48880598" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18336888" sideWeight="0.50664455" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35546038" sideWeight="0.5271855" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33618844" sideWeight="0.5314499" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.49088147" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.49573562" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6688103" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18336888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18336888" sideWeight="0.49335548" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35546038" sideWeight="0.4728145" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18336888" sideWeight="0.50664455" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33618844" sideWeight="0.46855012" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -2796,7 +2976,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="95" />
+      <option name="time" value="123" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -3000,20 +3180,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-23/android/os/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="92" column="46" lean-forward="false" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aRSimple/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aRBaseLib/aRBaseLib-release.aar">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2295">
@@ -3072,10 +3238,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="1552" column="0" lean-forward="false" selection-start-line="1552" selection-start-column="0" selection-end-line="1552" selection-end-column="0" />
-          <folding>
-            <element signature="e#64067#64068#0" expanded="false" />
-            <element signature="e#64149#64150#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3086,42 +3248,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aRSimple/src/main/java/org/artoolkit/ar/samples/ARSimple/ARSimple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-            <element signature="e#1543#1544#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aRSimple/src/main/java/org/artoolkit/ar/samples/ARSimple/TextRender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aRSimple/src/main/java/org/artoolkit/ar/samples/ARSimple/ARSimpleApplication.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-23/android/os/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="1275">
+          <caret line="92" column="46" lean-forward="false" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#31377#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4519#4520#0" expanded="false" />
+            <element signature="e#4552#4553#0" expanded="false" />
+            <element signature="e#5003#5004#0" expanded="false" />
+            <element signature="e#5040#5041#0" expanded="false" />
+            <element signature="e#5218#5219#0" expanded="false" />
+            <element signature="e#5259#5260#0" expanded="false" />
+            <element signature="e#5605#5606#0" expanded="false" />
+            <element signature="e#5650#5651#0" expanded="false" />
+            <element signature="e#6442#6443#0" expanded="false" />
+            <element signature="e#6475#6476#0" expanded="false" />
+            <element signature="e#10258#10259#0" expanded="false" />
+            <element signature="e#10301#10302#0" expanded="false" />
+            <element signature="e#10614#10615#0" expanded="false" />
+            <element signature="e#10663#10664#0" expanded="false" />
+            <element signature="e#12859#12860#0" expanded="false" />
+            <element signature="e#12922#12923#0" expanded="false" />
+            <element signature="e#20193#20194#0" expanded="false" />
+            <element signature="e#20245#20246#0" expanded="false" />
+            <element signature="e#21088#21089#0" expanded="false" />
+            <element signature="e#21137#21138#0" expanded="false" />
+            <element signature="e#21494#21495#0" expanded="false" />
+            <element signature="e#21549#21550#0" expanded="false" />
+            <element signature="e#26650#26651#0" expanded="false" />
+            <element signature="e#26705#26706#0" expanded="false" />
+            <element signature="e#27541#27542#0" expanded="false" />
+            <element signature="e#27600#27601#0" expanded="false" />
+            <element signature="e#28061#28062#0" expanded="false" />
+            <element signature="e#28117#28118#0" expanded="false" />
+            <element signature="e#28298#28299#0" expanded="false" />
+            <element signature="e#28328#28329#0" expanded="false" />
+            <element signature="e#29660#29661#0" expanded="false" />
+            <element signature="e#29698#29699#0" expanded="false" />
+            <element signature="e#30036#30037#0" expanded="false" />
+            <element signature="e#30072#30073#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aRSimple/src/main/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        <state relative-caret-position="272">
+          <caret line="16" column="37" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="16" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -3129,13 +3314,49 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/aRSimple/src/main/java/org/artoolkit/ar/samples/ARSimple/ARSimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1112#1113#0" expanded="false" />
+            <element signature="e#1155#1156#0" expanded="false" />
+            <element signature="e#1284#1285#0" expanded="false" />
+            <element signature="e#1318#1319#0" expanded="false" />
+            <element signature="e#1366#1367#0" expanded="false" />
+            <element signature="e#1400#1401#0" expanded="false" />
+            <element signature="e#1440#1441#0" expanded="false" />
+            <element signature="e#1470#1471#0" expanded="false" />
+            <element signature="e#1512#1513#0" expanded="false" />
+            <element signature="e#1543#1544#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aRSimple/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aRSimple/src/main/java/org/artoolkit/ar/samples/ARSimple/ARSimpleApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aRSimple/src/main/java/org/artoolkit/ar/samples/ARSimple/SimpleRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="62" column="78" lean-forward="false" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="78" />
+        <state relative-caret-position="221">
+          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#2608#3019#0" expanded="true" />
-            <element signature="e#3018#3019#0" expanded="true" />
+            <element signature="e#2678#4205#0" expanded="true" />
+            <element signature="e#4204#4205#0" expanded="true" />
           </folding>
         </state>
       </provider>
